@@ -11,7 +11,7 @@ def exibeTabuleiro(tabu):
 turn = 'X'
 for i in range(9):
     exibeTabuleiro(tabuleiro)
-    print('Rodada de ' +turn+ ', Mover para qual posição?')
+    print('Rodada de ' +turn+ ', Mover para qual posicao?')
     move = input()
     tabuleiro[move] = turn
     if turn == 'X':
